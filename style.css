@@ -1,0 +1,133 @@
+@import url(https://fonts.google.com/specimen/Karla?preview.size=32&query=ka);
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    background-color: rgb(24, 24, 24);
+}
+
+.cont { 
+    width: 350px;
+    height: 350px;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+#message {
+    font-size: 15px;
+    color: rgb(250, 78, 78);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 29.5%;
+    top: 68%;
+}
+
+#message1 {
+    font-size: 15px;
+    color: rgb(39, 230, 49);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 68%;
+}
+
+::placeholder {
+    color: rgb(253, 253, 253);
+}
+
+.btn {  
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    font-weight: 900;
+    background: linear-gradient(45deg, #01FB7C, #25DF0E);
+    color: rgb(243, 243, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 34.5%;
+    top: 75%;
+}
+
+.btn:hover {
+    scale: 1.05;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:not(:hover) {
+    scale: 1;
+    transition: 0.3s;
+}
+
+.btn:active {   
+    background: linear-gradient(45deg, #00d86c, #1bbb06);
+    transition: 0.3s;
+    scale: 1;
+}
+
+.chem {
+    color: rgb(253, 253, 253);
+    font-weight: 550;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    position: absolute;
+    font-size: 35px;
+    left: 22%;
+    top: 7%;
+}
+
+#login {    
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    border-color: lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 280px;
+    color: rgb(253, 253, 253);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#password {    
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    border-color: lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 280px;
+    color: rgb(253, 253, 253);
+    font-family: 'Press Start 2P', cursive;
+}
+
+input[type='text'] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+input[type='password'] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0);
+}
